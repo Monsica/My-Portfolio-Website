@@ -19,7 +19,7 @@ section {
   justify-content: space-between;
   align-items: center;
   background: #111;
-  background: url(images/profileBanner.jpg);
+  background: url(images/profileBanner.png);
   background-size: cover;
   background-position: right center;
 }
@@ -77,8 +77,10 @@ section {
 .profilePic {
   width: 300px;
   height: 300px;
-  border-top-left-radius: 30%;
-  border-bottom-right-radius: 30%;
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+  border-bottom-right-radius: 15%;
+  border-bottom-left-radius: 15%;
 }
 .contentBx h2 {
   font-weight: 300;
