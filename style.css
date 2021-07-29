@@ -183,9 +183,7 @@ header.sticky ul li a {
   border-bottom: 2px solid #6666ff;
   cursor: pointer;
 }
-.skills .content .skillsBx fa {
-  color: #6666ff;
-}
+
 /* For Contact Me */
 .contact {
   background: #111;
