@@ -9,6 +9,7 @@
     <script src="ext.js" language="javascript"></script>
     <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
   </head>
 
   <body>
@@ -161,17 +162,18 @@
           </div>
         </div>
         <div class="formBx">
-          <form>
+          <form action="https://formsubmit.co/monicasalazar@pm.me" method="POST"/>
             <h3>Message Me</h3>
-            <input type="text" placeholder="Full Name" />
-            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="Full Name" name="name" required/>
+            <input type="email" placeholder="Email" name="email" required/>
             <textarea
-              name=""
-              id=""
               rows="6"
+              name="message"
               placeholder="Your Message"
             ></textarea>
-            <input type="submit" value="Send Message" name="" />
+            <button type="submit" class="button">
+              <span class="button_text">Send Message</span>
+            </button>
           </form>
         </div>
       </div>

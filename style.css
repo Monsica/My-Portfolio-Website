@@ -228,19 +228,38 @@ header.sticky ul li a {
   color: 999;
 }
 
-.formBx form input[type="submit"] {
+.formBx form .button{
   background: #6666ff;
   max-width: 250px;
-  cursor: pointer;
-  font-weight: 600;
+  height: 50px;
+  padding: 0;
+  border: none;
+  outline: none;
   border-radius: 50px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
   cursor: pointer;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 600;
   letter-spacing: 2px;
 }
+.formBx form .button:hover{
+  background: #4949bd;
+}
+.formBx form .button:active{
+  background: #30307a;
+}
+.formBx form .button_text{
+  display: inline-flex;
+  align-items: center;
+  padding: 0 25px;
+  color: white;
+  height: 100%;
+}
+
 .contactInfo {
   min-width: 40%;
 }
