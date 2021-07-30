@@ -25,7 +25,7 @@ section {
 }
 .banner h2 {
   font-size: 2.5em;
-  color: #6666ff;
+  color: #C2C2FF;
   font-weight: 300;
   line-height: 1.5em;
 }
@@ -34,7 +34,7 @@ section {
   color: #efefef;
 }
 .banner h3 {
-  color: #999999;
+  color: #C2C2FF;
   font-size: 1.5em;
   font-weight: 500;
 }
@@ -247,10 +247,10 @@ header.sticky ul li a {
   letter-spacing: 2px;
 }
 .formBx form .button:hover{
-  background: #4949bd;
+  background: #6666ffa8;
 }
 .formBx form .button:active{
-  background: #30307a;
+  background: #6666ff54;
 }
 .formBx form .button_text{
   display: inline-flex;
